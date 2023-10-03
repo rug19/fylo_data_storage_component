@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <!-- Bootstrap style -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- My style CSS -->
+  <link rel="stylesheet" href="./css/style.css">
+  <title> Fylo data storage component</title>
+</head>
+
+<body>
+  <!-- Container pai  -->
+  <section class="background-container d-flex flex-column justify-content-center align-items-center gap-3 ">
+    <!-- container logo e icons -->
+    <div class="container container-logo d-flex flex-column justify-content-around p-4">
+      <div class="row">
+        <!-- Imagem logo -->
+        <div class="img-logo">
+          <img class="w-50 mb-4" src="./images/logo.svg" alt="logo">
+        </div>
+
+        <!-- Container Icons -->
+        <div class="container-icons  d-flex  gap-3">
+          <div class="d-flex justify-content-center align-items-center">
+            <img class="w-50" src="./images/icon-document.svg" alt="icon-document">
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <img class="w-50" src="./images/icon-folder.svg" alt="icon-folder">
+          </div>
+          <div class="d-flex justify-content-center align-items-center">
+            <img class="w-50" src="./images/icon-upload.svg" alt="icon-upload">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Segundo container -->
+    <div class=" container sub-container p-3">
+      <div class="row">
+        <div>
+          <p class="text-center">You’ve used <span>815 GB</span> of your storage</p>
+          <div class="ranger-container mb-2 d-flex align-items-center">
+            <div class="range d-flex justify-content-end align-items-center ">
+              <div class="range-ball justify-content-center">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="container-gb d-flex justify-content-between mb-2">
+            <span>0 GB</span>        
+            <span>1000 GB</span>
+        </div>
+        <div class=" container mini-container d-flex justify-content-center align-items-center ">
+          <p class="text-center p-2 m-0"> 185</p>
+          <span> GB LEFT </span>
+        </div>
+      </div>
+    </div>
+    <div class="background-footer">
+
+    </div>
+  </section>
+</body>
+
+</html>

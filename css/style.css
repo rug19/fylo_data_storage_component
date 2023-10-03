@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,600;0,700;1,400&family=Raleway:wght@400;700&display=swap");
+
+:root {
+  /* Colors */
+
+  --Pale-Blue: hsl(243, 100%, 93%);
+  --Grayish-Blue: hsl(229, 7%, 55%);
+  --Dark-Blue: hsl(228, 56%, 26%);
+  --Very-Dark-Blue: hsl(229, 57%, 11%);
+  --Gradient: hsl(6, 100%, 80%) to hsl(335, 100%, 65%);
+
+  /* Fontes */
+
+  --Open-Sans-400: "Open Sans", sans-serif;
+  --Raleway-700: "Raleway", sans-serif;
+}
+
+.background-container {
+  background-image: url("../images/bg-mobile.png");
+  background-size: cover;
+  min-height: 100vh;
+  color: var(--Pale-Blue);
+}
+
+.container-logo {
+  background-color: var(--Dark-Blue);
+  width: 17rem;
+  border-radius: 9px 80px 9px 9px;
+  height: 10rem;
+}
+
+.container-icons div {
+  background-color: var(--Very-Dark-Blue);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 0.5rem;
+}
+
+.sub-container {
+  background-color: var(--Dark-Blue);
+  width: 17rem;
+  height: 8rem;
+  border-radius: 9px 9px 9px 9px;
+}
+
+.sub-container p, .container-gb {
+  font-size: 0.8rem;
+  font-family: var(--Raleway-700);
+  color: var(--Pale-Blue);
+}
+
+.sub-container span {
+  font-weight: 600;
+}
+
+.sub-container input {
+  width: 14.7rem;
+  appearance: none;
+  border-radius: 10px;
+}
+
+.mini-container {
+  background-color: white;
+  width: 9rem;
+  height: 3.5rem;
+  border-radius: 0.5rem;
+}
+
+.mini-container p {
+  color: var(--Very-Dark-Blue);
+  font-family: var(--Raleway-700);
+  font-weight: bold;
+  font-size: 2rem;
+  
+}
+
+.mini-container span {
+  font-size: 0.7rem;
+  color: var(--Grayish-Blue);
+  font-family: var(--Raleway-700);
+}
+
+.ranger-container {
+  border-radius: 10px;
+  background-color: var(--Very-Dark-Blue);
+  width: 15rem;
+  height: 1.1rem;
+}
+
+.range {
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  width: 11rem;
+  height: 0.9rem;
+  border-radius: 15px;
+  margin: 2px;
+}
+
+.range-ball {
+  width: 0.6rem;
+  height: 0.6rem;
+  background: white;
+  border-radius: 10px;
+  margin-right: 2px;
+}
+
+@media (min-width: 768px) {
+
+
+}
