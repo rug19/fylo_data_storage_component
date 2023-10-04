@@ -24,9 +24,9 @@
 
 .container-logo {
   background-color: var(--Dark-Blue);
-  width: 17rem;
+  width: 20rem;
   border-radius: 9px 80px 9px 9px;
-  height: 10rem;
+  height: 12rem;
 }
 
 .container-icons div {
@@ -38,13 +38,14 @@
 
 .sub-container {
   background-color: var(--Dark-Blue);
-  width: 17rem;
-  height: 8rem;
+  width: 20rem;
+  height: 9rem;
   border-radius: 9px 9px 9px 9px;
 }
 
-.sub-container p, .container-gb {
-  font-size: 0.8rem;
+.sub-container p,
+.container-gb {
+  font-size: 1rem;
   font-family: var(--Raleway-700);
   color: var(--Pale-Blue);
 }
@@ -61,35 +62,34 @@
 
 .mini-container {
   background-color: white;
-  width: 9rem;
-  height: 3.5rem;
-  border-radius: 0.5rem;
+  width: 12.2rem;
+  height: 5rem;
+  border-radius: 0.8rem;
 }
 
 .mini-container p {
   color: var(--Very-Dark-Blue);
   font-family: var(--Raleway-700);
   font-weight: bold;
-  font-size: 2rem;
-  
+  font-size: 3rem;
 }
 
 .mini-container span {
-  font-size: 0.7rem;
+  font-size: 1rem;
   color: var(--Grayish-Blue);
   font-family: var(--Raleway-700);
 }
 
 .ranger-container {
   border-radius: 10px;
-  background-color: var(--Very-Dark-Blue);
-  width: 15rem;
+  background-color: hsl(226.42deg 59.55% 17.45%);
+  width: 18rem;
   height: 1.1rem;
 }
 
 .range {
   background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
-  width: 11rem;
+  width: 13.2rem;
   height: 0.9rem;
   border-radius: 15px;
   margin: 2px;
@@ -104,6 +104,4 @@
 }
 
 @media (min-width: 768px) {
-
-
 }
