@@ -15,8 +15,14 @@
   --Raleway-700: "Raleway", sans-serif;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .background-container {
-  background-image: url("../images/bg-mobile.png");
+  background: url("../images/bg-mobile.png");
   background-size: cover;
   min-height: 100vh;
   color: var(--Pale-Blue);
@@ -25,8 +31,8 @@
 .container-logo {
   background-color: var(--Dark-Blue);
   width: 20rem;
-  border-radius: 9px 80px 9px 9px;
-  height: 12rem;
+  border-radius: 9px 109px 9px 9px;
+  height: 11rem;
 }
 
 .container-icons div {
@@ -103,5 +109,18 @@
   margin-right: 2px;
 }
 
-@media (min-width: 768px) {
+/* Versão desktop */
+@media (min-width: 1440px) {
+
+
+  .background-container {
+    display: flex;
+    flex-direction: row;
+    background-color: var(--Very-Dark-Blue);
+    background-image: url("../images/bg-desktop.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center bottom;
+  }
 }
+
